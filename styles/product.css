@@ -1,0 +1,34 @@
+select {
+  border: 1px solid #ff523b;
+  padding: 5px;
+}
+
+select:focus {
+  outline: none;
+}
+
+.divider {
+  justify-content: space-between;
+  margin: 40px auto;
+}
+
+.page-btn {
+  display: flex;
+  margin: 0 auto 80px;
+  align-items: center;
+}
+
+.page-btn p {
+  border: 1px solid #ff523b;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.page-btn p:hover {
+  background-color: #ff523b;
+  color: white;
+}
